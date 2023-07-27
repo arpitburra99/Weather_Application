@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-image: url("./assets/christmas-day-weather-over-terranora-australia-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 754px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #191c14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 18px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+input {
+  padding: 10px 25px;
+  height: 40px;
+  width: 270px;
+  border: none;
+  border-radius: 20px;
+  background-color: #030303;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 5px;
+}
+.search-btn {
+  padding: 11px 13px;
+  border: none;
+  border-radius: 20px;
+  background-color: #060606;
+  cursor: pointer;
+}
+.search-btn i {
+  color: #fff;
+  font-size: 15px;
+}
+.title h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #ecdcdc;
+}
+.contain .temp-n-img span:first-child img {
+  height: 125px;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+.temp-n-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.temp-n-img span:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.temp-n-img span:first-child p {
+  color: #ecdcdc;
+  font-size: 25px;
+}
+.temp-n-img span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.temp-n-img span:nth-child(2) h2 {
+  color: #ecdcdc;
+  font-size: 45px;
+}
+.temp-n-img span:nth-child(2) h3 {
+  color: #ecdcdc;
+  font-size: 35px;
+}
+.humidity-n-wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+}
+.humidity-n-wind .humidity-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.humidity-col img {
+  height: 28px;
+}
+.humidity-col span p {
+  color: #ecdcdc;
+  font-size: 15px;
+}
+.humidity-n-wind .wind-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wind-col img {
+  height: 28px;
+}
+.wind-col span p {
+  color: #ecdcdc;
+  font-size: 15px;
+}
+.contain {
+  display: none;
+}
